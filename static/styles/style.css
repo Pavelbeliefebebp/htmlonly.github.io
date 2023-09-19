@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap'); 
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #0000a3 0%, #000000 100%);
+}
+p{
+    color: aquamarine;
+}
+.nav-link{
+    color: aquamarine;
+
+}
+.navbar.nav .nav-link.active{
+    color: rgb(143, 142, 142);
+}
+.navbar-brand img {
+width: 40px;
+}
+.navbar-toggler{
+    background-color: rgb(182, 182, 182);
+}
+.sidebar{
+    color: aquamarine;
+    background: linear-gradient(270deg, #0000a3 0%, #000000 100%);
+}
+.card{
+    background: linear-gradient(270deg, #0000a3 0%, #000000 100%);
+    color: aquamarine;
+}
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.slide-text{
+    color: aquamarine;
+    margin: auto auto;
+}
+.footer-text{
+    color: aquamarine;
+    margin: auto auto;
+}
+footer{
+    background: linear-gradient(270deg, #0000a3 0%, #000000 100%);
+}
+img{
+    width: 10%;
+    margin-inline: 1em;
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768){
+    img{
+        width: 20%;
+    }
+}
+@media (max-width: 755){
+.carousel-indicators{
+display: none;
+}
+}
+.call-anim {
+    animation: myAnim 30s ease 01s 1 normal forwards;
+}
+.btn{
+    background: linear-gradient(270deg, #0000a3 0%, #000000 100%);
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
